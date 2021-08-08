@@ -4,7 +4,7 @@ music2 = ""
 function preload()
 {
     music1 = loadSound("music.mp3");
-    music2 = loadSound("music1.mp3");
+    music2 = loadSound("music2.mp3");
 }
 
 function setup()
@@ -26,7 +26,7 @@ function modelLoaded()
 
 function draw()
 {
-    image(video, 0, 0, 600, 500);
+    image(video, 0, 0, 300, 300);
 
     fill("#FF0000")
     stroke("FF0000")
